@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+:root {
+
+  --breakpoint-3xl: 1920px;
+  /* ... otras variables que ya tengas ... */
+
+  /* Paleta de colores inspirada en Figma */
+  --figma-gray-100: oklch(0.96 0 0);       /* Gris muy claro (casi blanco) */
+  --figma-gray-200: oklch(0.92 0.005 240);   /* Gris claro */
+  --figma-gray-300: oklch(0.88 0.01 240);    /* Gris medio claro */
+  --figma-gray-400: oklch(0.80 0.015 240);   /* Gris medio */
+  --figma-gray-500: oklch(0.60 0.02 240);    /* Gris medio oscuro */
+  --figma-gray-600: oklch(0.40 0.025 240);   /* Gris oscuro */
+  --figma-blue-500: oklch(0.65 0.15 260);   /* Azul primario de Figma (aproximado) */
+  --figma-green-500: oklch(0.70 0.10 150);  /* Verde para éxito (aproximado) */
+  --figma-red-500: oklch(0.60 0.18 20);    /* Rojo para alerta (aproximado) */
+  --figma-white: oklch(1 0 0);             /* Blanco puro */
+
+  /* Puedes definir alias más semánticos para tu tema */
+  --color-background-primary: var(--figma-gray-100);
+  --color-text-primary: var(--figma-gray-600);
+  --color-primary: var(--figma-blue-500);
+  --color-success: var(--figma-green-500);
+  --color-alert: var(--figma-red-500);
+  --color-border: var(--figma-gray-200);
+}
